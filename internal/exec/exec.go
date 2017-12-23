@@ -7,14 +7,14 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/neelance/graphql-go/errors"
-	"github.com/neelance/graphql-go/internal/common"
-	"github.com/neelance/graphql-go/internal/exec/resolvable"
-	"github.com/neelance/graphql-go/internal/exec/selected"
-	"github.com/neelance/graphql-go/internal/query"
-	"github.com/neelance/graphql-go/internal/schema"
-	"github.com/neelance/graphql-go/log"
-	"github.com/neelance/graphql-go/trace"
+	"github.com/bitlum/graphql-go/errors"
+	"github.com/bitlum/graphql-go/internal/common"
+	"github.com/bitlum/graphql-go/internal/exec/resolvable"
+	"github.com/bitlum/graphql-go/internal/exec/selected"
+	"github.com/bitlum/graphql-go/internal/query"
+	"github.com/bitlum/graphql-go/internal/schema"
+	"github.com/bitlum/graphql-go/log"
+	"github.com/bitlum/graphql-go/trace"
 )
 
 type Request struct {

@@ -6,17 +6,17 @@ import (
 
 	"encoding/json"
 
-	"github.com/neelance/graphql-go/errors"
-	"github.com/neelance/graphql-go/internal/common"
-	"github.com/neelance/graphql-go/internal/exec"
-	"github.com/neelance/graphql-go/internal/exec/resolvable"
-	"github.com/neelance/graphql-go/internal/exec/selected"
-	"github.com/neelance/graphql-go/internal/query"
-	"github.com/neelance/graphql-go/internal/schema"
-	"github.com/neelance/graphql-go/internal/validation"
-	"github.com/neelance/graphql-go/introspection"
-	"github.com/neelance/graphql-go/log"
-	"github.com/neelance/graphql-go/trace"
+	"github.com/bitlum/graphql-go/errors"
+	"github.com/bitlum/graphql-go/internal/common"
+	"github.com/bitlum/graphql-go/internal/exec"
+	"github.com/bitlum/graphql-go/internal/exec/resolvable"
+	"github.com/bitlum/graphql-go/internal/exec/selected"
+	"github.com/bitlum/graphql-go/internal/query"
+	"github.com/bitlum/graphql-go/internal/schema"
+	"github.com/bitlum/graphql-go/internal/validation"
+	"github.com/bitlum/graphql-go/introspection"
+	"github.com/bitlum/graphql-go/log"
+	"github.com/bitlum/graphql-go/trace"
 )
 
 // ParseSchema parses a GraphQL schema and attaches the given root resolver. It returns an error if
